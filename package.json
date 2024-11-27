@@ -1,12 +1,10 @@
 {
-  "name": "youtube_bot_js",
-  "version": "1.0.1",
-  "main": "index.js",
+  "name": "bot_default",
+  "version": "1.0.0",
+  "main": "bot.js",
   "type": "module",
   "scripts": {
-    "watch": "tsc --watch",
-    "dev": "ts-node-dev --respawn --transpile-only ./src/bot.ts\n",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/bot.js"
   },
   "keywords": [],
   "author": "",
